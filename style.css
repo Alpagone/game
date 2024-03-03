@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#oyun-alani {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.kart h2 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.kart p {
+    margin-bottom: 5px;
+}
+
+.kart button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#bilgiler {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+#bilgiler p {
+    margin-bottom: 5px;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+.bar.aktif {
+    background-color: #00ff00;
+}
+
+.kart button.hasat-edilmis {
+    display: none;
+}
